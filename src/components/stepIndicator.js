@@ -7,13 +7,7 @@ class stepIndicator extends Component {
   };
 
   _isActive(step, index) {
-    let cls = '';
-
-    if (step === index) {
-      cls = 'active';
-    }
-
-    return cls;
+    return step === index ? 'active' : '';
   }
 
   render() {
