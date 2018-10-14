@@ -30,6 +30,3 @@ También se mostraran cualquier lint errors en la consola.
 ### `npm run build`
 
 Buildea la aplicación para producción en la carpeta `build`.
-Los archivos son minificados.
-
-Tu proyecto estará listo para ser deployado.
