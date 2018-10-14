@@ -1,4 +1,4 @@
-# Formulario de registro - Ejercicio
+# Formulario de registro - Ejercicio - Geopagos
 
 Una plataforma de pagos que actualmente da de alta a sus usuarios en forma manual, quiere desarrollar una app web para automatizar su proceso de registro. Para brindar una mejor experiencia al usuario, se decide dividir el registro en 3.
 
@@ -30,6 +30,3 @@ También se mostraran cualquier lint errors en la consola.
 ### `npm run build`
 
 Buildea la aplicación para producción en la carpeta `build`.
-Los archivos son minificados.
-
-Tu proyecto estará listo para ser deployado.
