@@ -1,0 +1,27 @@
+.steps-indicator {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	.steps-indicator-item{
+		width: 30px;
+		height: 30px;
+		color: $success;
+		font-weight: 500;
+		border-radius: 50%;
+		border: 1px solid $success;
+		text-align: center;
+		line-height: 28px;
+
+		&.active {
+			background: $success;
+			color: white
+		}
+	}
+
+	.steps-indicator-separator {
+		height: 1px;
+		width: 23px;
+		background: $success
+	}
+}

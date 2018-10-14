@@ -1,0 +1,14 @@
+.btn {
+	&.btn-primary {
+		&.outline {
+			border: 1px solid $primary;
+			background: transparent;
+			color: $primary;
+
+			&:hover {
+				background: $primary;
+				color: white
+			}
+		}
+	}
+}

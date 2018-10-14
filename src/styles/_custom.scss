@@ -1,0 +1,15 @@
+// custom variables
+@import "_variables";
+
+// base
+@import "~bootstrap/scss/bootstrap";
+
+body, html, #root {
+	height: 100%
+}
+
+// custom components
+@import "_step";
+@import "_form";
+@import "_button";
+
