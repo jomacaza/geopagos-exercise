@@ -57,7 +57,6 @@ class stepFormContainer extends Component {
             getLocation={this._getLocation.bind(this)}
           />
         );
-        break;
       case 2:
         return (
           <Step3
@@ -67,7 +66,6 @@ class stepFormContainer extends Component {
             pending={this.props.postFormPending}
           />
         );
-        break;
       default:
         return (
           <Step1
@@ -105,7 +103,7 @@ class stepFormContainer extends Component {
     if (this.props.postForm) {
       return (
         <div className="text-center">
-          <img src={success} width="128" />
+          <img src={success} width="128" alt="success icon" />
           <h3 className="text-primary mt-4">Te registraste exitosamente!</h3>
         </div>
       );

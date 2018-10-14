@@ -58,7 +58,7 @@ class step1 extends Component {
 
   _renderButtonContent() {
     if (this.props.pending) {
-      return <img src={spinner} width="20" />;
+      return <img src={spinner} width="20" alt="spinner" />;
     } else {
       return 'Finalizar';
     }

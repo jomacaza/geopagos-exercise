@@ -60,7 +60,7 @@ class step2 extends Component {
 
   _renderLocationSpinner() {
     if (this.props.pending) {
-      return <img src={spinner} className="input-spinner" />;
+      return <img src={spinner} className="input-spinner" alt="spinner" />;
     }
   }
 

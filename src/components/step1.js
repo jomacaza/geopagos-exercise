@@ -114,9 +114,7 @@ class step1 extends Component {
             !_.isEmpty(this.state.errors['fullName']) ? 'is-invalid' : ''
           }`}
         >
-          <label for="fullName" className="text-primary">
-            Nombre completo
-          </label>
+          <label className="text-primary">Nombre completo</label>
           <input
             type="text"
             className="form-control"
@@ -136,9 +134,7 @@ class step1 extends Component {
             !_.isEmpty(this.state.errors['cuil']) ? 'is-invalid' : ''
           }`}
         >
-          <label for="cuil" className="text-primary">
-            N de CUIL
-          </label>
+          <label className="text-primary">N de CUIL</label>
           <input
             type="text"
             className="form-control"
